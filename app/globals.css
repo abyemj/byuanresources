@@ -28,3 +28,11 @@ button {
   border-radius: 5px;
   font-size: 1rem;
 }
+
+.bg-navy-blue {
+  background-color: var(--navy-blue);
+}
+
+.text-navy-blue {
+  color: var(--navy-blue);
+}

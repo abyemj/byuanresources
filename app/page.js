@@ -44,7 +44,7 @@ export default function HomePage() {
               Home
             </a>
             <a
-              href="#about"
+              href="/about"
               className="text-navy-blue font-medium hover:text-gray-700 md:ml-6 mb-4 md:mb-0"
               onClick={() => setIsMenuOpen(false)}
             >
@@ -67,33 +67,33 @@ export default function HomePage() {
           </div>
         </div>
       </nav>
-        <div className=" h-screen bg-contain bg-right bg-no-repeat  "
-           style={{ backgroundImage: 'url("/skyscrapers.jpg")' }}>HELLO WORLD
+        <div id='home' className=" h-screen bg-contain bg-right bg-no-repeat  "
+           style={{ backgroundImage: 'url("/skyscrapers.jpg")' }}>
         </div>
         <div className="h-48 absolute bg-current ml-25 top-48 ">
-        <div className="relative z-10 px-6">
+        <div className="relative z-10 px-6 py-6">
           <h1 className="text-5xl md:text-6xl font-bold text-white">Byuan Resources</h1>
           <p className="mt-4 text-lg md:text-xl text-white">
             Consulting Services
           </p>
         </div>
-          <button className="mt-6 px-6 py-3 mx-5 text-current bg-white text-navy-blue font-bold rounded-lg">
-            Ask Us How
+          <button className="px-6 py-1 mx-5 text-current bg-white text-navy-blue font-bold rounded-lg">
+            Work with us
           </button>
         </div> 
       </section>
 
       {/* About Us Section */}
       <section className="py-16 px-6 bg-white text-center">
-        <h2 className="text-3xl font-bold text-navy-blue">About Us</h2>
+        <h2 className="text-3xl font-bold text-navy-blue">Expertise you can count on</h2>
         <p className="mt-4 text-lg text-gray-600">
-          Byuan Resources is a consulting firm specializing in business insights and strategies. We partner with organizations to deliver measurable impact and sustainable growth.
+          With multiple years of industry experience, Byuan Resources is a consulting firm specializing in business insights and strategies. We partner with organizations to deliver measurable impact and sustainable growth.
         </p>
       </section>
 
       {/* Services Section */}
-      <section className="py-16 px-6 bg-light-gray">
-        <h2 className="text-3xl font-bold text-navy-blue text-center">Our Services</h2>
+      <section id="services" className="py-16 px-6 bg-current">
+        <h2 className="text-3xl font-bold text-white text-center">Our Services</h2>
         <div className="mt-8 grid grid-cols-1 md:grid-cols-3 gap-8">
           <div className="bg-white p-6 rounded-lg shadow">
             <h3 className="text-xl font-bold text-navy-blue">Strategy Consulting</h3>
@@ -117,7 +117,7 @@ export default function HomePage() {
       </section>
 
       {/* Contact Section */}
-      <section className="py-16 px-6 bg-white text-center">
+      <section id="contact" className="py-16 px-6 bg-white text-center">
         <h2 className="text-3xl font-bold text-navy-blue">Contact Us</h2>
         <p className="mt-4 text-lg text-gray-600">
           Ready to take your business to the next level? Get in touch with us today!
@@ -139,13 +139,18 @@ export default function HomePage() {
           <div>
             <h3 className="text-lg font-bold">Location</h3>
             <p className="mt-2">
-              Suite C11, Al-malisha Commercial Centre, Ahmadu Bello Way, Garki II,
-              FCT, Abuja, Nigeria
+              Head Office: Plot 2, Al-Mahila Commercial Centre, Suite C9, Michika Street, Area 11, Garki, Abuja
+            </p>
+            <p className="mt-2">
+              Lagos Office: No 6, lander close Liverpool road, GRA, Apapa Lagos
+            </p>
+            <p className="mt-2">
+              Abuja Branch Office: Plot 123, Samuel Ladoke Akintola Boulevard, Garki II, Abuja
             </p>
           </div>
           <div>
             <h3 className="text-lg font-bold">Contact</h3>
-            <p className="mt-2">Phone: 09-7819234, 08023565553</p>
+            <p className="mt-2">Phone: 07038913554</p>
             <p className="mt-2">Website: <a href="https://www.byuanresources.com" className="underline text-light-blue">www.byuanresources.com</a></p>
             <p className="mt-2">Email: <a href="mailto:drmathiasbyuan@byuanresources.com" className="underline text-light-blue">drmathiasbyuan@byuanresources.com</a></p>
           </div>

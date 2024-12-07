@@ -87,7 +87,9 @@ export default function HomePage() {
       <section className="py-16 px-6 bg-white text-center">
         <h2 className="text-3xl font-bold text-navy-blue">Expertise you can count on</h2>
         <p className="mt-4 text-lg text-gray-600">
-          With multiple years of industry experience, Byuan Resources is a consulting firm specializing in business insights and strategies. We partner with organizations to deliver measurable impact and sustainable growth.
+        Byuan Resources Ltd (BRL) is a multi-business company incorporated as a limited liability in Abuja in September 2008,
+          by its founder Dr. Mathias Byuan
+          With multiple years of industry experience, Byuan Resources specializes in business insights and strategies. We partner with organizations to deliver measurable impact and sustainable growth.
         </p>
       </section>
 
@@ -96,21 +98,51 @@ export default function HomePage() {
         <h2 className="text-3xl font-bold text-white text-center">Our Services</h2>
         <div className="mt-8 grid grid-cols-1 md:grid-cols-3 gap-8">
           <div className="bg-white p-6 rounded-lg shadow">
-            <h3 className="text-xl font-bold text-navy-blue">Strategy Consulting</h3>
+            <h3 className="text-xl font-bold text-navy-blue">Engineering &amp; General Construction</h3>
             <p className="mt-4 text-gray-600">
-              Develop strategies that drive growth, efficiency, and competitive advantage.
+              Oversee Engineering and General construction works,  with efficiency, and competitive advantage.
             </p>
           </div>
           <div className="bg-white p-6 rounded-lg shadow">
-            <h3 className="text-xl font-bold text-navy-blue">Market Research</h3>
+            <h3 className="text-xl font-bold text-navy-blue">Financial Consultation (Revenue &amp; Income Generation)</h3>
             <p className="mt-4 text-gray-600">
               Gain insights into markets, customers, and trends to inform decision-making.
             </p>
           </div>
           <div className="bg-white p-6 rounded-lg shadow">
-            <h3 className="text-xl font-bold text-navy-blue">Operational Excellence</h3>
+            <h3 className="text-xl font-bold text-navy-blue">Oil &amp; Gas</h3>
             <p className="mt-4 text-gray-600">
-              Streamline operations and optimize performance for maximum impact.
+              Streamline Oil and Gas operations and optimize performance for maximum impact.
+            </p>
+          </div>
+          <div className="bg-white p-6 rounded-lg shadow">
+            <h3 className="text-xl font-bold text-navy-blue">Power Generation</h3>
+            <p className="mt-4 text-gray-600">
+              Efficient Power Generation,  .
+            </p>
+          </div>
+          <div className="bg-white p-6 rounded-lg shadow">
+            <h3 className="text-xl font-bold text-navy-blue">Freight &amp; Logistics (Clearing &amp; Forwarding)</h3>
+            <p className="mt-4 text-gray-600">
+              logistics, clearing and Forwarding across board for importers and exporters.
+            </p>
+          </div>
+          <div className="bg-white p-6 rounded-lg shadow">
+            <h3 className="text-xl font-bold text-navy-blue">Property Consultants &amp; Developers</h3>
+            <p className="mt-4 text-gray-600">
+              Real estate consultancy nationwide.
+            </p>
+          </div>
+          <div className="bg-white p-6 rounded-lg shadow">
+            <h3 className="text-xl font-bold text-navy-blue">ICT Solutions</h3>
+            <p className="mt-4 text-gray-600">
+              Development, Deployment and Maintainace of modern ICT Solutions.
+            </p>
+          </div>
+          <div className="bg-white p-6 rounded-lg shadow">
+            <h3 className="text-xl font-bold text-navy-blue">General Contractors</h3>
+            <p className="mt-4 text-gray-600">
+             General contractors of local and international services.
             </p>
           </div>
         </div>

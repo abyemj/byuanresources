@@ -2,6 +2,8 @@
 
 import { FiMenu, FiX } from 'react-icons/fi';
 import { useState } from 'react';
+import Carousel from './components/Carousel';
+import Image from 'next/image'
 
 export default function HomePage() {
 
@@ -18,9 +20,15 @@ export default function HomePage() {
       <nav className="fixed top-0 left-0 w-full bg-white shadow-md z-50">
         <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
           {/* Logo */}
-          <div className="text-xl font-bold text-navy-blue">
+          {/* <div className="text-xl font-bold text-navy-blue">
             Byuan Resources
-          </div>
+          </div> */}
+          <Image
+            src="/logo.png"
+            width={150}
+            height={80}
+            alt="logo"
+          />
           
           {/* Menu Icon for Mobile */}
           <button
@@ -67,7 +75,7 @@ export default function HomePage() {
           </div>
         </div>
       </nav>
-        <div id='home' className=" h-screen bg-contain bg-right bg-no-repeat  "
+        {/* <div id='home' className=" h-screen bg-contain bg-right bg-no-repeat  "
            style={{ backgroundImage: 'url("/skyscrapers.jpg")' }}>
         </div>
         <div className="h-48 absolute bg-current ml-25 top-48 ">
@@ -80,7 +88,8 @@ export default function HomePage() {
           <button className="px-6 py-1 mx-5 text-current bg-white text-navy-blue font-bold rounded-lg">
             Work with us
           </button>
-        </div> 
+        </div>  */}
+        <Carousel />
       </section>
 
       {/* About Us Section */}
